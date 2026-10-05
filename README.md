@@ -40,3 +40,12 @@ chore: configure husky et lint-staged
 ```
 npm install
 ```
+
+## Hooks Git
+
+Les hooks sont gérés par [Husky](https://typicode.github.io/husky/).
+
+| Hook         | Action                                                                              |
+| ------------ | ----------------------------------------------------------------------------------- |
+| `pre-commit` | Lance `lint-staged` : Prettier formate les fichiers `*.{ts,tsx,js,json,md,yml}`     |
+| `commit-msg` | Lance `commitlint` : refuse les messages qui ne respectent pas Conventional Commits |
