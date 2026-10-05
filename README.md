@@ -16,15 +16,15 @@ type(scope): description
 
 ### Types autorisés
 
-| Type | Usage |
-|------|-------|
-| `feat` | Nouvelle fonctionnalité |
-| `fix` | Correction de bug |
-| `docs` | Documentation uniquement |
-| `style` | Mise en forme (pas de changement de logique) |
+| Type       | Usage                                                      |
+| ---------- | ---------------------------------------------------------- |
+| `feat`     | Nouvelle fonctionnalité                                    |
+| `fix`      | Correction de bug                                          |
+| `docs`     | Documentation uniquement                                   |
+| `style`    | Mise en forme (pas de changement de logique)               |
 | `refactor` | Refonte du code sans nouvelle fonctionnalité ni correction |
-| `test` | Ajout ou modification de tests |
-| `chore` | Maintenance, config, dépendances |
+| `test`     | Ajout ou modification de tests                             |
+| `chore`    | Maintenance, config, dépendances                           |
 
 ### Exemples
 
@@ -33,4 +33,10 @@ feat(auth): ajoute la connexion par email
 fix(api): corrige le calcul de la date de fin
 docs(readme): ajoute les conventions de commit
 chore: configure husky et lint-staged
+```
+
+## Installation
+
+```
+npm install
 ```
