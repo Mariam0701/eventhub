@@ -90,3 +90,11 @@ gitGraph
   checkout main
   merge dev tag: "v1.0.0"
 ```
+
+## Environnement de développement
+
+```
+docker compose up --build
+```
+
+Application : http://localhost:3000 (hot-reload activé).
